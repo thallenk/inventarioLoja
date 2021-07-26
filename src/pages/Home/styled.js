@@ -66,6 +66,9 @@ export const Main = styled.nav`
     margin-top:-2%;
     color: white;
     height:1000px;
+    ul li{
+        list-style: none;
+    }
     ul li a{
           /*Colocando espaços entre os icones*/
     margin-left: 7px;
@@ -81,6 +84,7 @@ export const Main = styled.nav`
     vertical-align: middle;
     color: #600066;
     font-weight: 700px;
+    
 
     }
 `
@@ -96,4 +100,5 @@ export const LinkHome = styled(Link)`
     text-decoration: none;
     margin-right: 10px;
     border-radius: 8px;
+   
 `

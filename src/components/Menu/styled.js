@@ -42,3 +42,38 @@ export const LinkHome = styled(Link)`
     margin-right: 10px;
     border-radius: 8px;
 `
+export const Header = styled.header`
+    width: 100%;
+    background-color: #600066;
+    height: 45px;
+
+    
+
+`
+
+export const Container = styled.main`
+  margin: 0 auto;
+  position: relative;
+  width: 980px;
+  margin-top: -16px;
+  .logo{
+        float: left;
+        background-image: #600066;
+        width: 80%;
+        margin-top: 3px;
+    }
+    .redes-sociais ul li {
+        /*Colocando espaços entre os icones*/
+        margin-left: 10px;
+        /*Esse comando é para deixar os íconos na mesma linha*/
+        display: inline-block;
+        /*para centralizar o icone na div*/
+        margin-top: 9px;
+        /*linhas referentes a  range de redefinição do tamanho da imagem*/
+        max-width: 200px;
+        max-height: 150px;
+        width: auto;
+        height: auto;
+}
+
+`
