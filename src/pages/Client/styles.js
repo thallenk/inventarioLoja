@@ -29,12 +29,6 @@ export const FormContainer = styled.div`
         left: 200px;
     }
     input{
-        border-radius: 5px;
-        
-    }
-    label{
-        color: rgb(55, 2, 75);
-        font-size: 0.8em;
         font-weight: bold;  
         cursor: default;
     }
